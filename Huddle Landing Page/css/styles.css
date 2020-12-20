@@ -1,0 +1,101 @@
+
+
+
+body{
+  background-color: hsl(257, 40%, 49%);
+  margin: 0;
+  max-width: 100%;
+  position: relative;
+}
+h1{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-weight: 600;
+}
+
+h4{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-weight: 400;
+  line-height: 25px;
+}
+#logo{
+  position: absolute;
+  top: 50px;
+  left: 75px;
+}
+
+#mockup{
+  position: absolute;
+  top: 175px;
+  left: 75px;
+}
+
+.bio{
+  width: 500px;
+  height: 250px;
+  text-align: justify;
+  float: right;
+  position: absolute;
+  top: 225px;
+  right: 100px;
+}
+
+#register{
+  font-size: 1.25rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin: auto;
+  color: hsl(257, 40%, 49%);
+}
+
+#register:hover{
+  color: white;
+}
+#button{
+  border-radius: 30px;
+  height: 60px;
+  width: 200px;
+  border-style: none;
+  margin-top: 50px;
+}
+
+#button:hover{
+  background-color: hsl(300, 69%, 71%);
+}
+
+.one{
+  transform: scale(3);
+  position: absolute;
+  right: 50px;
+  bottom:100px;
+  color: hsl(300, 69%, 71%);
+}
+
+.two{
+  transform: scale(3);
+  position: absolute;
+  right: 100px;
+  bottom:100px;
+  color:hsl(300, 69%, 71%) ;
+}
+
+.three{
+  transform: scale(3);
+  position: absolute;
+  right: 150px;
+  bottom:100px;
+  color: hsl(300, 69%, 71%);
+}
+
+.one:hover{
+  color: white;
+}
+
+.two:hover{
+  color: white;
+}
+
+.three:hover{
+  color: white;
+}
